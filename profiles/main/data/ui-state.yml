@@ -1,0 +1,120 @@
+innoverio.vscode-dbt-power-user: '{"showSetupWalkthrough":false}'
+ms-python.debugpy: '{"PYTHON_GLOBAL_STORAGE_KEYS":[{"key":"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS","defaultValue":[]}]}'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.dbt_view","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.datapilot_view","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.snowflakeActivityBarContainer","pinned":true,"visible":false,"order":10}]'
+workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
+  \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
+  in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
+  npm:showScriptExplorer\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\":{\
+  \"id\":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\":true,\"views\"\
+  :[{}]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-\
+  view-icon\"},\"name\":\"Source
+  Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
+  scm.providerCount != '0'\"},{},{\"when\":\"scm.historyProviderCount &&
+  scm.historyProviderCount !=
+  '0'\"}]},{\"id\":\"workbench.view.debug\",\"themeIcon\":{\"id\":\"run-view-ic\
+  on\"},\"name\":\"Run and
+  Debug\",\"isBuiltin\":true,\"views\":[{\"when\":\"debugUx ==
+  'simple'\"},{\"when\":\"debugUx == 'default'\"},{\"when\":\"debugUx ==
+  'default'\"},{\"when\":\"debugUx ==
+  'default'\"},{\"when\":\"loadedScriptsSupported && debugUx ==
+  'default'\"},{\"when\":\"breakpointsExist || hasDebugged || debugUx ==
+  'default'\"},{\"when\":\"debugType == 'pwa-chrome' || debugType ==
+  'pwa-msedge'\"},{\"when\":\"jsDebugHasExcludedCallers && debugType ==
+  'node-terminal' || jsDebugHasExcludedCallers && debugType == 'pwa-chrome' ||
+  jsDebugHasExcludedCallers && debugType == 'pwa-extensionHost' ||
+  jsDebugHasExcludedCallers && debugType == 'pwa-msedge' ||
+  jsDebugHasExcludedCallers && debugType ==
+  'pwa-node'\"},{\"when\":\"jsDebugNetworkAvailable\"}]},{\"id\":\"workbench.vi\
+  ew.remote\",\"themeIcon\":{\"id\":\"remote-explorer-view-icon\"},\"name\":\"R\
+  emote
+  Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extensio\
+  ns\",\"themeIcon\":{\"id\":\"extensions-view-icon\"},\"name\":\"Extensions\",\
+  \"isBuiltin\":true,\"views\":[{\"when\":\"defaultExtensionViews\"},{\"when\":\
+  \"searchExtensionUpdates ||
+  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
+  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
+  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
+  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
+  en\":\"defaultExtensionViews && hasGallery &&
+  !config.extensions.showRecommendationsOnlyOnDemand &&
+  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledMcpServers &&
+  mcpServersGalleryEnabled\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"mcpServersGalleryEnabled &&
+  searchMcpServers\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\":\"in\
+  stalledExtensions ||
+  searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
+  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
+  \":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensions\"}\
+  ,{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\
+  \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
+  aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
+  kbench.view.extension.test\",\"themeIcon\":{\"id\":\"test-view-icon\"},\"name\
+  \":\"Testing\",\"isBuiltin\":true,\"views\":[{\"when\":\"testing.providerCount
+  >
+  0\"},{\"when\":\"testing.isTestCoverageOpen\"}]},{\"id\":\"workbench.view.ext\
+  ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"Ref\
+  erences\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\
+  \"}]},{\"id\":\"workbench.view.extension.dbt_view\",\"iconUrl\":{\"$mid\":1,\
+  \"path\":\"%%EXTENSION_DATA_PATH%%/innoverio.vscode-dbt-power-user-0.58.2-uni\
+  versal/media/images/dbt_icon.svg\",\"scheme\":\"file\"},\"name\":\"dbt Power
+  User\",\"isBuiltin\":false,\"views\":[{},{},{},{},{}]},{\"id\":\"workbench.vi\
+  ew.extension.datapilot_view\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_\
+  DATA_PATH%%/innoverio.vscode-dbt-power-user-0.58.2-universal/media/images/alt\
+  imate.svg\",\"scheme\":\"file\"},\"name\":\"DataPilot
+  Chat\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.extension\
+  .snowflakeActivityBarContainer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSI\
+  ON_DATA_PATH%%/snowflake.snowflake-vsc-1.16.0-universal/static/snowflake.svg\
+  \",\"scheme\":\"file\"},\"name\":\"Snowflake\",\"isBuiltin\":false,\"views\":\
+  [{},{\"when\":\"config.snowflake.enableNativeAppPanel\"},{\"when\":\"snowflak\
+  e.isActiveAccountLoggedIn &&
+  !config.snowflake.objectExplorer.search\"},{\"when\":\"config.snowflake.objec\
+  tExplorer.search &&
+  snowflake.isActiveAccountLoggedIn\"},{},{\"when\":\"config.snowflake.snowConv\
+  ertMigrationAssistant.enabled\"},{\"when\":\"config.snowflake.snowparkCheckpo\
+  ints.enabled\"}]}]"
+workbench.activityBar.location: default
+workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":100}]'
+workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"comment-discussion"},"name":"Chat","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
+  || chatPanelParticipantRegistered || chatSetupInstalled && !chatSetupDisabled
+  || !chatSetupDisabled && !chatSetupHidden"}]}]'
+workbench.auxiliaryBar.size: "300"
+workbench.editor.languageDetectionOpenedLanguages.global: '[["jinja-sql",true],["markdown",true],["jsonc",true],["dockerfile",true],["javascript",true],["plaintext",true],["python",true],["jinja-yaml",true]]'
+workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true}]'
+workbench.panel.alignment: center
+workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
+workbench.panel.lastNonMaximizedHeight: "300"
+workbench.panel.lastNonMaximizedWidth: "300"
+workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
+workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
+workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"workbench.view.extension.dbt_preview_results","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.lineage_view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.docs_edit_view","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.insights_view","pinned":true,"visible":false,"order":9},{"id":"workbench.panel.comments","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.snowflakeResultsContainer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.snowflakeDetailsContainer","pinned":true,"visible":false,"order":11},{"id":"refactorPreview","pinned":true,"visible":false}]'
+workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"Problems","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"Output","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"Debug
+  Console","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Terminal","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"Test
+  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.dbt_preview_results","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/innoverio.vscode-dbt-power-user-0.58.2-universal/media/images/dbt_icon.svg","scheme":"file"},"name":"Query
+  Results","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.lineage_view","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/innoverio.vscode-dbt-power-user-0.58.2-universal/media/images/dbt_icon.svg","scheme":"file"},"name":"Lineage","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.docs_edit_view","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/innoverio.vscode-dbt-power-user-0.58.2-universal/media/images/dbt_icon.svg","scheme":"file"},"name":"Documentation
+  Editor","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.insights_view","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/innoverio.vscode-dbt-power-user-0.58.2-universal/media/images/dbt_icon.svg","scheme":"file"},"name":"Actions","isBuiltin":false,"views":[{}]},{"id":"workbench.panel.comments","name":"Comments","isBuiltin":false},{"id":"workbench.view.extension.snowflakeResultsContainer","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/snowflake.snowflake-vsc-1.16.0-universal/static/snowflake.svg","scheme":"file"},"name":"Snowflake","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.snowflakeDetailsContainer","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/snowflake.snowflake-vsc-1.16.0-universal/static/snowflake.svg","scheme":"file"},"name":"Snowflake","isBuiltin":false,"views":[{"when":"snowflake.isActiveAccountLoggedIn"}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
+  Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
+workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
+workbench.panel.size: "492"
+workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
+workbench.sideBar.size: "457"
+workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]'
+workbench.view.extension.datapilot_view.state.hidden: '[{"id":"dbtPowerUser.datapilot-webview","isHidden":false}]'
+workbench.view.extension.dbt_preview_results.state.hidden: '[{"id":"dbtPowerUser.PreviewResults","isHidden":false}]'
+workbench.view.extension.dbt_view.state.hidden: '[{"id":"model_test_treeview","isHidden":false},{"id":"parent_model_treeview","isHidden":false},{"id":"children_model_treeview","isHidden":false},{"id":"documentation_treeview","isHidden":false},{"id":"icon_actions_treeview","isHidden":false}]'
+workbench.view.extension.docs_edit_view.state.hidden: '[{"id":"dbtPowerUser.DocsEdit","isHidden":false}]'
+workbench.view.extension.insights_view.state.hidden: '[{"id":"dbtPowerUser.Insights","isHidden":false}]'
+workbench.view.extension.lineage_view.state.hidden: '[{"id":"dbtPowerUser.Lineage","isHidden":false}]'
+workbench.view.extension.snowflakeActivityBarContainer.state.hidden:
+  '[{"id":"snowflakeAccount","isHidden":false},{"id":"snowflakeNativeApp","isHidden":false},{"id":"snowflakeObjectExplorer","isHidden":false},{"id":"snowflakeSearchableObjectExplorer","isHidden":false},{"id":"snowflakeQueryHistoryTree","isHidden":false},{"id":"snowflakeSnowConvertEwiList","isHidden":false},{"id":"snowparkCheckpoints","isHidden":false}]'
+workbench.view.extension.snowflakeResultsContainer.state.hidden: '[{"id":"snowflakeQueryResults","isHidden":false}]'
+workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"workbench.view.testCoverage","isHidden":false}]'
+workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
+workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
+workbench.views.extensions.installed.size: "15"
+workbench.welcomePage.hiddenCategories: '["innoverio.vscode-dbt-power-user#initialSetup"]'
+workbench.welcomePage.walkthroughMetadata: '[["innoverio.vscode-dbt-power-user#initialSetup",{"firstSeen":1750667527039,"stepIDs":["open","initialSupport","updateExtension","selectInterpreter","installDbtCore","installDbtCloud","associateFileExts","pickProject","installDeps","validateProjectCore","validateProjectCloud","finish"],"manaullyOpened":false}],["innoverio.vscode-dbt-power-user#tutorials",{"firstSeen":1750667527039,"stepIDs":["innoverio.vscode-dbt-power-user#tutorials#generate_models","innoverio.vscode-dbt-power-user#tutorials#autocompletion","innoverio.vscode-dbt-power-user#tutorials#previews","innoverio.vscode-dbt-power-user#tutorials#dependants","innoverio.vscode-dbt-power-user#tutorials#documentation","innoverio.vscode-dbt-power-user#tutorials#lineage","innoverio.vscode-dbt-power-user#tutorials#healthcheck"],"manaullyOpened":true}],["ms-python.python#pythonWelcome",{"firstSeen":1750667527039,"stepIDs":["python.createPythonFolder","python.createPythonFile","python.installPythonWin8","python.installPythonMac","python.installPythonLinux","python.createEnvironment","python.runAndDebug","python.learnMoreWithDS"],"manaullyOpened":false}],["ms-python.python#pythonDataScienceWelcome",{"firstSeen":1750667527039,"stepIDs":["python.installJupyterExt","python.createNewNotebook","python.openInteractiveWindow","python.dataScienceLearnMore"],"manaullyOpened":false}],["snowflake.snowflake-vsc#snowflake.intro",{"firstSeen":1750667550322,"stepIDs":["authenticate","execute-sql-mac","execute-sql","db-explorer","autocomplete"],"manaullyOpened":false}]]'
+zokugun.cron-tasks: '{"version":"0.2.1"}'

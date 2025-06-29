@@ -1,0 +1,17 @@
+{
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "snowflake.connectionsConfigFile": "/home/jmsbs/.snowflake/connections.toml",
+  "files.associations": {
+    "*.sql": "jinja-sql",
+    "*.yml": "jinja-yaml"
+  },
+
+  "workbench.colorCustomizations": {
+    "[Ayu Dark]": {
+      "sideBar.foreground": "#FFFFFF"
+    }
+},
+"[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+}
